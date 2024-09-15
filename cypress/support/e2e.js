@@ -19,3 +19,7 @@ import './commands'
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
 require('cypress-xpath');
+
+beforeEach(()=>{
+    cy.log('Script developed by Dilan Meegoda')
+})
