@@ -3,7 +3,6 @@ export class LoginPage {
   passwordFeild = "//input[@placeholder='Password']";
   loginButton = ".oxd-button";
   userDeatils = ".oxd-userdropdown-name";
-  
 
   enterUsername(username) {
     cy.xpath(this.usernameFeild).type(username);
@@ -20,5 +19,4 @@ export class LoginPage {
   userDetailsClick() {
     cy.get(this.userDeatils).click();
   }
-
 }

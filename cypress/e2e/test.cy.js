@@ -1,3 +1,4 @@
+
 it('Google Serach', () => {
     cy.visit('https://google.com/')
     cy.wait(2000)
